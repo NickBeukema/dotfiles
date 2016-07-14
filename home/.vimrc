@@ -7,6 +7,10 @@ let NERDTreeShowHidden=1 " auto show hidden files
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif " close tree if last pane
 
 filetype plugin indent on
+au BufRead,BufNewFile *.thor set filetype=ruby
+au BufRead,BufNewFile *.hbs set filetype=js
+
+let mapleader=","
 
 set autoindent
 set number
