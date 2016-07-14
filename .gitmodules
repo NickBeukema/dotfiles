@@ -7,3 +7,6 @@
 [submodule "home/.vim/bundle/nerdcommenter"]
 	path = home/.vim/bundle/nerdcommenter
 	url = git@github.com:scrooloose/nerdcommenter.git
+[submodule "home/.vim/bundle/move-me"]
+	path = home/.vim/bundle/move-me
+	url = git@github.com:tpope/vim-pathogen.git
