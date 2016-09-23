@@ -10,3 +10,18 @@
 [submodule "home/.vim/bundle/move-me"]
 	path = home/.vim/bundle/move-me
 	url = git@github.com:tpope/vim-pathogen.git
+[submodule "home/.vim/bundle/ember.vim"]
+	path = home/.vim/bundle/ember.vim
+	url = git@github.com:dsawardekar/ember.vim.git
+[submodule "home/.vim/bundle/portkey"]
+	path = home/.vim/bundle/portkey
+	url = git@github.com:dsawardekar/portkey.git
+[submodule "home/.vim/bundle/vim-mustache-handlebars"]
+	path = home/.vim/bundle/vim-mustache-handlebars
+	url = git@github.com:mustache/vim-mustache-handlebars.git
+[submodule "home/.vim/bundle/vim-coffee-script"]
+	path = home/.vim/bundle/vim-coffee-script
+	url = git@github.com:kchmck/vim-coffee-script.git
+[submodule "home/.vim/bundle/vim-css-color"]
+	path = home/.vim/bundle/vim-css-color
+	url = git@github.com:skammer/vim-css-color.git
