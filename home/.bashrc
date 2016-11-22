@@ -21,7 +21,7 @@ export DB_PASS="isd"
 
 # Git branch in prompt
 parse_git_branch() {
-    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
 
 if [ -d "app" ]; then
