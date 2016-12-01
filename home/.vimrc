@@ -26,6 +26,12 @@ endif
 " Map // to search for visually selected text
 vnoremap // y/<C-R>"<CR>
 
+" Remap Ctrl-w J to Ctrl-j and so on
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
 " Display extra whitespace
 set list listchars=tab:»·,trail:·,nbsp:·
 
