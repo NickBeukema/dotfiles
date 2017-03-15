@@ -18,7 +18,7 @@ export DB_USER="root"
 export DB_PASS="isd"
 
 # Only load Liquid Prompt in interactive shells, not from a script or from scp
-[[ $- = *i* ]] && source ~/repos/liquidprompt/liquidprompt
+#[[ $- = *i* ]] && source ~/repos/liquidprompt/liquidprompt
 
 # --files: List files that would be searched but do not search
 # --no-ignore: Do not respect .gitignore, etc...
