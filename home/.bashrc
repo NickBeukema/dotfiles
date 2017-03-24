@@ -10,6 +10,8 @@ alias editp='vim ~/.bashrc'
 alias sourcep='. ~/.bashrc'
 alias editv='vim ~/.vimrc'
 
+export EDITOR=vim
+
 alias gt='ctags -R --exclude=.git --exclude=node_modules --exclude=tmp .'
 
 # inQwizIt Environment Variables
@@ -33,3 +35,8 @@ parse_git_branch() {
 }
 
 export PS1="\W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
+
+# Aliases that are portable between shells (e.g. sh, bash, zsh)
+[ -f ~/.aliases ] && source ~/.aliases
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

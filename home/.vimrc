@@ -16,6 +16,9 @@ Plug 'junegunn/fzf.vim'
 
 call plug#end()
 
+let test#runners = {'JavaScript' : ['Ember']}
+let test#javascript#runner = 'ember'
+
 " NERD Tree
 map <C-n> :NERDTreeToggle<CR> " Map ctrl-n to toggle pane
 :hi Directory guifg=#FF0000 ctermfg=red " Set filename colors to red
